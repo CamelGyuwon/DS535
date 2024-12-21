@@ -3,7 +3,7 @@ import bottleneck as bn
 import torch
 import math
 import time
-from evaluate_utils_alpha import computeTopNAccuracy_alpha
+from models.evaluate_utils_alpha import computeTopNAccuracy_alpha
 
 def computeTopNAccuracy(GroundTruth, predictedIndices, topN):
     precision = [] 
