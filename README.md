@@ -14,7 +14,7 @@ The original github repository is [here](https://github.com/yiyanxu/diffrec)
 
 ## Usage
 ### Data
-ml-1m dataset we used is in ./datasets
+ml-1m dataset we used is in ./datasets \\
 Since all the dataset is too big for upload please refer the [official code](https://github.com/yiyanxu/diffrec)
  
 #### L-DiffRec
