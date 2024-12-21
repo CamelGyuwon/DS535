@@ -21,7 +21,6 @@ Since all the dataset is too big for upload please refer the [official code](htt
 #### L-DiffRec
 Our best performance is based on L-DiffRec
 ```
-cd ./L-DiffRec
 sh run_inference.sh
 ```
 The experiment results would be saved in ./inference_logs
