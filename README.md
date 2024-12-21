@@ -20,7 +20,7 @@ All the dataset we used is in ./datasets
 Our best performance is based on L-DiffRec
 ```
 cd ./L-DiffRec
-sh run_inference_LD.sh
+sh run_inference.sh
 ```
 The experiment results would be saved in ./inference_logs
 
