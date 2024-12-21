@@ -47,10 +47,10 @@ def computeTopNAccuracy(GroundTruth, predictedIndices, topN):
                 sumForNdcg += ndcg
                 sumForMRR += userMRR
         
-        sumForPrecision = computeTopNAccuracy_alpha(sumForPrecision)
-        sumForRecall = computeTopNAccuracy_alpha(sumForRecall)
-        sumForNdcg = computeTopNAccuracy_alpha(sumForNdcg)
-        sumForPrecision = computeTopNAccuracy_alpha(sumForPrecision)
+        # sumForPrecision = computeTopNAccuracy_alpha(sumForPrecision)
+        # sumForRecall = computeTopNAccuracy_alpha(sumForRecall)
+        # sumForNdcg = computeTopNAccuracy_alpha(sumForNdcg)
+        # sumForPrecision = computeTopNAccuracy_alpha(sumForPrecision)
         
         precision.append(round(sumForPrecision / len(predictedIndices), 4))
         recall.append(round(sumForRecall / len(predictedIndices), 4))
