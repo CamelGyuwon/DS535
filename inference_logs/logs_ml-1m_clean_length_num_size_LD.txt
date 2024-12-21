@@ -1,0 +1,9 @@
+args: Namespace(batch_size=400, cuda=False, data_path='../datasets/ml-1m_clean/', dataset='ml-1m_clean', emb_path='../datasets/ml-1m_clean/', exploration_length=1, exploration_number=1, exploration_size=5e-08, gpu='0', log_name='log', mean_type='x0', n_cate=2, noise_max=0.02, noise_min=0.005, noise_scale=0.005, noise_schedule='linear-var', sampling_noise=False, sampling_steps=40, steps=40, topN='[10, 20, 50, 100]', tst_w_val=False)
+Starting time:  2024-12-21 15:27:32
+user num: 5949
+item num: 2810
+data ready.
+Preparing mask for validation & test costs 00: 00: 00
+[Valid]: Precision: 0.2448-0.2397-0.2162-0.188 Recall: 0.0691-0.1369-0.308-0.5227 NDCG: 0.1165-0.1352-0.1929-0.2699 MRR: 0.1078-0.1176-0.1238-0.1257
+[Test]: Precision: 0.1797-0.1688-0.145-0.1218 Recall: 0.0935-0.1806-0.3854-0.636 NDCG: 0.099-0.1265-0.1949-0.271 MRR: 0.081-0.09-0.0965-0.0986
+End time:  2024-12-21 15:27:39
