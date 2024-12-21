@@ -16,7 +16,7 @@ The original github repository is [here](https://github.com/yiyanxu/diffrec)
 ### Data
 ml-1m dataset we used is in ./datasets
 
-Since all the dataset is too big for upload please refer the [official code](https://github.com/yiyanxu/diffrec)
+Since all the dataset is too big for upload please refer the [official code](https://github.com/yiyanxu/diffrec) for Amazon-book and Yelp
  
 #### L-DiffRec
 Our best performance is based on L-DiffRec
